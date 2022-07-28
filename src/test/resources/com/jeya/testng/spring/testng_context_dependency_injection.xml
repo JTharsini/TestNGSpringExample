@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNGSpringIntegration Suite" parallel="false">
+  <test name="TestNGSpringIntegrationTest">
+    <classes>
+      <class name="com.jeya.testng.spring.SpringTestNGDependencyInjectionExample"/>
+    </classes>
+  </test>
+  <test name="TestNGSpringIntegrationTest2">
+    <classes>
+      <class name="com.jeya.testng.spring.SpringTestNGContextCacheExample"/>
+    </classes>
+  </test>
+  <test name="TestNGSpringIntegrationTest3">
+    <classes>
+      <class name="com.jeya.testng.spring.SpringTestNGTransactionExample"/>
+    </classes>
+  </test>    
+</suite>
